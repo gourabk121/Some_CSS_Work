@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    
+}
+a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: serif;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: linear-gradient(45deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 500%;
+    z-index: 1;
+    
+}
+
+a:hover{
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    25%{
+        background-position: 100%;
+    }
+    50%{
+        background-position: 250%;
+    }
+    75%{
+        background-position: 350%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
